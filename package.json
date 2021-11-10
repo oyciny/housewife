@@ -1,6 +1,6 @@
 {
   "name": "housewife",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Have the housewife do all your chores (especially the dirty ones)",
   "main": "index.js",
   "scripts": {
