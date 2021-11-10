@@ -1,7 +1,7 @@
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _cleanArray = require("./utils/cleanArray");
@@ -12,6 +12,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var HouseWife = function HouseWife() {};
 
-HouseWife.prototype.clean = (0, _cleanArray2.default)();
+HouseWife.prototype.clean = function (dirtyArray) {
+    var instructions = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : { return: dirtyArray.length, order: 'default' };
+
+    return (0, _cleanArray2.default)(dirtyArray, instructions);
+};
 
 exports.default = HouseWife;
