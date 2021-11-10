@@ -1,14 +1,14 @@
 {
   "name": "housewife",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "Have the housewife do all your chores (especially the dirty ones)",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "build": "babel ./src -d ./dist"
+    "build": "babel ./lib -d ./build"
   },
   "repository": {
     "type": "git",
-    "url": "git+[https://github.com/oyciny/housewife.git](https://github.com/oyciny/housewife.git)"
+    "url": "https://github.com/oyciny/housewife.git"
   },
   "keywords": [
     "utility",
