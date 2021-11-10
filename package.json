@@ -4,8 +4,11 @@
   "description": "Have the housewife do all your chores (especially the dirty ones)",
   "main": "index.js",
   "scripts": {
+    "test": "npm test",
     "build": "babel ./lib -d ./build",
-    "version": "npm run build && git add -A build && npm version patch"
+    "preversion": "npm version",
+    "version": "npm run build && git add -A build && git add package.json",
+    "postversion": "git push"
   },
   "repository": {
     "type": "git",
