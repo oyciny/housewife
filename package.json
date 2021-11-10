@@ -6,8 +6,6 @@
   "scripts": {
     "test": "npm test",
     "build": "babel ./lib -d ./build",
-    "preversion": "git add . && git commit -m \"update\" && npm version patch",
-    "version": "npm run build && git add -A build && git add package.json",
     "postversion": "npm publish",
     "postpublish": "git push && git push --tags"
   },
