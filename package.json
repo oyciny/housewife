@@ -4,7 +4,6 @@
   "description": "Have the housewife do all your chores (especially the dirty ones)",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
     "build": "babel ./lib -d ./build",
     "postversion": "npm publish",
     "postpublish": "git push origin --all && git push origin --tags"
