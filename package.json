@@ -7,7 +7,7 @@
     "test": "npm test",
     "build": "babel ./lib -d ./build",
     "postversion": "npm publish",
-    "postpublish": "git push && git push --tags"
+    "postpublish": "git push origin --all && git push origin --tags"
   },
   "repository": {
     "type": "git",
