@@ -4,14 +4,14 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _utils = require("./utils");
+var _cleanArray = require("./utils/cleanArray");
 
-var _utils2 = _interopRequireDefault(_utils);
+var _cleanArray2 = _interopRequireDefault(_cleanArray);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var HouseWife = function HouseWife() {};
 
-HouseWife.prototype.clean = (0, _utils2.default)();
+HouseWife.prototype.clean = (0, _cleanArray2.default)();
 
 exports.default = HouseWife;
