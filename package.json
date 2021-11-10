@@ -1,0 +1,15 @@
+{
+  "name": "housewife",
+  "version": "0.1.0",
+  "description": "Have the housewife do all your chores (especially the dirty ones)",
+  "main": "lib/index.js",
+  "keywords": [
+    "utility",
+    "tools",
+    "toolbox",
+    "helpers",
+    "utils"
+  ],
+  "author": "oyciny",
+  "license": "MIT"
+}
