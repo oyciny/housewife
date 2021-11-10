@@ -8,7 +8,7 @@
     "build": "babel ./lib -d ./build",
     "preversion": "npm run build && git add -A build && git add package.json",
     "postversion": "npm publish",
-    "postpublish": "git push origin --all && git push --tags"
+    "postpublish": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
