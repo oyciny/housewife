@@ -1,7 +1,7 @@
 # House Wife
 House Wife is the do all javascript package. She can do all your chores for you while you focus on what matters.  
 
-[![NPM VERSION][npm-image]][npm-url]
+![npm](https://img.shields.io/npm/v/housewife?color=orange&style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/oyciny/housewife?style=flat-square)
 
 ## Installation
@@ -25,6 +25,3 @@ Right now housewife is a basic bitch. She can't do much but she is very good at 
 
 ## Notice
 This house wife is not very good at the moment but we plan to whip her into shape over time. Stay with us to see the progress we make on her over time.
-
-[npm-image]: https://img.shields.io/npm/v/housewife
-[npm-url]: https://npmjs.org/package/housewife
