@@ -2,6 +2,7 @@
 House Wife is the do all javascript package. She can do all your chores for you while you focus on what matters.  
 
 [![NPM VERSION][npm-image]][npm-url]
+![GitHub issues](https://img.shields.io/github/issues/oyciny/housewife?style=flat-square)
 
 ## Installation
 To get a house wife of your own simply run:
